@@ -41,12 +41,11 @@ pytorch for setting up training and validation.
 
     In your report, carefully document and report the major things you try, by noting the key architectural details, design rationale, and the impact on training plots and validation metrics. You should also include the relevant training plots and validation metrics. 
 
-    For reference, our very basic first implementation is
-    able to do 1 training epoch in 3.5s, and achieves a mAP of 0.59 and a mIoU of
-    0.42 in under 20 minutes of training. At the very least your implementation
+    For reference, our very basic first implementation of finetuned model is
+    able to do 1 training epoch under 10s, and achieves a mAP of 0.62 and a mIoU of
+    0.45 in under 20 minutes of training. At the very least your implementation
     should achieve as much accuracy on the validation set, but you may be able to
     do better with more training, and trying out alternate architectural choices.
-    Also report the performance of your best model on the test set.
 
 2. **Test set perforamnce [5pts - autograded]**: The starter code produces predictions on the test set, writing to the file `MP1_sseg_predictions.npy`. After you have finished developing your model, generate predictions using the same code for evaluation against the ground truth labels. 
 Upload the file `MP1_sseg_predictions.npy` to the MP1 assignemnt on gradescope to have it graded. Please upload the code for your final model as well. Make sure to include all autograded components from all components of MP1 for your final submission.

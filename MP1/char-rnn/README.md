@@ -16,7 +16,7 @@ predict the next character.
 #### Data
 We will work with a dataset of paper titles and abstracts from arXiv in the
 general area of robot learning (selected from ([1](#references))). We have
-`2485` papers for training, and `532` for validation and `10000` strings
+`2485` papers for training, and `532` for validation and `10000` strings for
 testing. We have provided a basic dataloader that you can build upon.  Data can
 be downloaded from
 [here](https://saurabhg.web.illinois.edu/teaching/ece598sg/fa2022/mps/mp1/arXiv.zip).
