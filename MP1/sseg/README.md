@@ -15,7 +15,7 @@ to upload to gradescope.
 We have `572` images for training, `71` images for validation and `71` images
 for testing. Each image is `288×224`. We provide a basic data loader that you
 can build upon. Data can be downloaded from
-[here](https://saurabhg.web.illinois.edu/teaching/ece598sg/fa2022/mps/mp1/sbd.zip).
+[here](https://saurabhg.web.illinois.edu/teaching/ece598sg/fa2022/mps/mp1/sbd.tgz).
 Download the file into the `data` folder, and zip it to obtain a folder
 called `sbd`. It should have sub-folders `train`, `val` and `test` containing
 images and ground truth labels.
