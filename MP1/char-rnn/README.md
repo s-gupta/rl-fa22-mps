@@ -19,7 +19,7 @@ general area of robot learning (selected from ([1](#references))). We have
 `2485` papers for training, and `532` for validation and `10000` strings for
 testing. We have provided a basic dataloader that you can build upon.  Data can
 be downloaded from
-[here](https://saurabhg.web.illinois.edu/teaching/ece598sg/fa2022/mps/mp1/arXiv.zip).
+[here](https://saurabhg.web.illinois.edu/teaching/ece598sg/fa2022/mps/mp1/arXiv.tgz).
 Download the file into the `data` folder, and untar it to obtain a folder
 called `arXiv`. It should have files `train.txt`, `val.txt` and
 `test_prefix_strings.torch` containing paper titles and abstract for the
